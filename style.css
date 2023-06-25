@@ -89,3 +89,21 @@
 	background-position-x: calc(100% - 20px);
 	background-position-y: 15px;
 }
+
+@media (max-width:767px) {
+	.container textarea {
+		width: 80%;
+	}
+	.container .row {
+		width: 80%;
+	}
+	.container button {
+		padding: 5px 10px;
+		font-size: 10px;
+		height: 50px;
+	}
+	.container button ion-icon {
+		font-size: 15px;
+	}
+}
+
